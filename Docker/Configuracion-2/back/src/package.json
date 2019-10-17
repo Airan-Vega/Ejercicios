@@ -1,0 +1,23 @@
+{
+  "name": "docker-configuration-2",
+  "version": "1.0.0",
+  "description": "En este ejercicio vamos a realizar la configuracion 2 de la diapositiva 07.01.AWS II - Buenas prácticas del bloque de Introducción a sistemas y despliegue clásico de servidores. En esta configuración lo que hacemos es levantar un servidor nginx, conectar dicho servidor a un html y en dicho html hacer una peticion a un node que nos devolvera un archivo JSON.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airan-Vega/docker-configuration-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Airan-Vega/docker-configuration-2/issues"
+  },
+  "homepage": "https://github.com/Airan-Vega/docker-configuration-2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

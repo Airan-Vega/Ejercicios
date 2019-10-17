@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Configuracion 2</title>
+    </head>
+    <body>
+        <h1>Front de la Configuracion 2</h1>
+        <!--En el href ponemos la url en donde se muestra el JSON. La url es la que pusimos en el
+        default.conf para conectar con el node + la url del fetch que hay en este documento -->
+        <a href="api/api/peticion">Mostrar JSON</a>
+        <script>
+            fetch('http://localhost:3000/api/peticion')
+            .then(res=>{
+                console.log(res);
+            })
+            .catch(err=>{
+                console.log(err);
+            });
+        </script>
+    </body>
+</html>

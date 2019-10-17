@@ -1,0 +1,19 @@
+{
+  "name": "docker-configuration-1",
+  "version": "1.0.0",
+  "description": "En este ejercicio vamos a realizar la configuracion 1 de la diapositiva 07.01.AWS II - Buenas prácticas del bloque de Introducción a sistemas y despliegue clásico de servidores.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Airan-Vega/docker-configuration-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Airan-Vega/docker-configuration-1/issues"
+  },
+  "homepage": "https://github.com/Airan-Vega/docker-configuration-1#readme"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "endpoint-get",
+  "version": "1.0.0",
+  "description": "Ejercicio de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "firebase": "^6.4.1",
+    "generate-password": "^1.4.2",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.9",
+    "nodemon": "^1.19.1",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-google-token": "^0.1.2",
+    "passport-jwt": "^4.0.0",
+    "passport-oauth": "^1.0.0",
+    "passport-oauth1": "^1.1.0",
+    "passport-oauth2": "^1.5.0",
+    "pkginfo": "^0.4.1",
+    "uid2": "0.0.3"
+  }
+}
